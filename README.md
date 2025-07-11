@@ -27,7 +27,7 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 
 ## Kurulum
 
-1. Projeyi klonlayın veya  dosyaları indirin:
+1. Projeyi klonlayın veya dosyaları indirin:
 
    ```bash
    git clone https://github.com/CihanGunen/KutuphaneYonetimSistemi
@@ -51,7 +51,7 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 ---
 
 ## Proje Yapısı
-
+---
 kutuphane-yonetim-sistemi/
 ├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
 ├── src/
@@ -69,7 +69,7 @@ kutuphane-yonetim-sistemi/
 ├── [README.md](README.md)
 ├── [requirements.txt](requirements.txt)
 └── [run.py](run.py)                 # Ana giriş noktası
-
+---
 
 ---
 
@@ -91,4 +91,3 @@ pytest -s
 
 ---
 
---
