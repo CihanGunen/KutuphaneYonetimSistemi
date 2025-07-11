@@ -51,27 +51,30 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 
 
 
+
+
 ## Proje Yapısı
 
 <pre>
-kutuphane-yonetim-sistemi/
-├── data/                  
-├── src/
-│   └── app/
-│       ├── cli/
+<a href="kutuphane-yonetim-sistemi/">kutuphane-yonetim-sistemi/</a>
+├── <a href="data/">data/</a>                  
+├── <a href="src/">src/</a>
+│   └── <a href="src/app/">app/</a>
+│       ├── <a href="src/app/cli/">cli/</a>
 │       │   └── <a href="src/app/cli/main_menu.py">main_menu.py</a>
-│       ├── models/
+│       ├── <a href="src/app/models/">models/</a>
 │       │   ├── <a href="src/app/models/kitap.py">kitap.py</a>
 │       │   ├── <a href="src/app/models/uye.py">uye.py</a>
 │       │   └── <a href="src/app/models/kutuphane.py">kutuphane.py</a>
-│       └── services/
+│       └── <a href="src/app/services/">services/</a>
 │           └── <a href="src/app/services/json_storage.py">json_storage.py</a>
-├── tests/
+├── <a href="tests/">tests/</a>
 │   └── <a href="tests/test_kutuphane.py">test_kutuphane.py</a>
 ├── <a href="README.md">README.md</a>
 ├── <a href="requirements.txt">requirements.txt</a>
 └── <a href="run.py">run.py</a>
 </pre>
+
 
 
 ---
