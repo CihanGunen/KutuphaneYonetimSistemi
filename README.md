@@ -1,1 +1,67 @@
-# KutuphaneYonetimSistemi
+# Kütüphane Yönetim Sistemi (Python OOP Projesi)
+
+Bu proje, Python OOP kullanılarak geliştirilmiş basit bir kütüphane yönetim sistemidir.  
+Kitap ekleme, üye ekleme, kitap ödünç verme ve iade alma işlemlerini destekler.  
+Veriler JSON dosyalarında kalıcı olarak saklanır.
+
+---
+
+## Özellikler
+
+- Kitap ve üye yönetimi  
+- Kitapların ödünç verilmesi ve iade alınması  
+- JSON tabanlı veri kalıcılığı (dosyalarda saklama)  
+- Modüler, OOP tabanlı kod yapısı  
+- Komut satırı arayüzü (CLI) ile kullanıcı dostu kullanım  
+
+---
+
+## Ön Koşullar
+
+- Python 3.8 veya üzeri  
+- `python-dotenv` (gerekirse)  
+- Diğer bağımlılıklar için `requirements.txt`  
+
+---
+
+## Kurulum
+
+1. Projeyi klonlayın veya dosyaları indirin:
+
+   ```bash
+   git clone https://github.com/kullanici/kutuphane-yonetim-sistemi.git
+   cd kutuphane-yonetim-sistemi
+
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+
+kutuphane-yonetim-sistemi/
+├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
+├── src/
+│   ├── app/
+│   │   ├── cli/
+│   │   │   └── main_menu.py
+│   │   ├── models/
+│   │   │   ├── kitap.py
+│   │   │   ├── uye.py
+│   │   │   └── kutuphane.py
+│   │   └── services/
+│   │       └── json_storage.py
+├── README.md
+├── requirements.txt
+└── run.py                 # Ana giriş noktası
+
+
+python run.py
+
+
+
+---
+
+İstersen bu metni doğrudan `README.md` dosyanı açıp yapıştırabilirsin.  
+Başka yardım istersen hemen söyle!
+
+
