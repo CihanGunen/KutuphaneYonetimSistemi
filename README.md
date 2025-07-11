@@ -57,18 +57,19 @@ kutuphane-yonetim-sistemi/
 ├── src/
 │   └── app/
 │       ├── cli/
-│       │   └── main_menu.py
+│       │   └── [main_menu.py](src/app/cli/main_menu.py)
 │       ├── models/
-│       │   ├── kitap.py
-│       │   ├── uye.py
-│       │   └── kutuphane.py
+│       │   ├── [kitap.py](src/app/models/kitap.py)
+│       │   ├── [uye.py](src/app/models/uye.py)
+│       │   └── [kutuphane.py](src/app/models/kutuphane.py)
 │       └── services/
-│           └── json_storage.py
+│           └── [json_storage.py](src/app/services/json_storage.py)
 ├── tests/
-│   └── test_kutuphane.py
-├── README.md
-├── requirements.txt
-└── run.py                 # Ana giriş noktası
+│   └── [test_kutuphane.py](tests/test_kutuphane.py)
+├── [README.md](README.md)
+├── [requirements.txt](requirements.txt)
+└── [run.py](run.py)                 # Ana giriş noktası
+
 ```
 
 ---
