@@ -49,27 +49,30 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 
 ---
 
+
+
 ## Proje Yapısı
 
-```
+<pre>
 kutuphane-yonetim-sistemi/
-├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
+├── data/                  
 ├── src/
 │   └── app/
 │       ├── cli/
-│       │   └── main_menu.py
+│       │   └── <a href="src/app/cli/main_menu.py">main_menu.py</a>
 │       ├── models/
-│       │   ├── kitap.py
-│       │   ├── uye.py
-│       │   └── kutuphane.py
+│       │   ├── <a href="src/app/models/kitap.py">kitap.py</a>
+│       │   ├── <a href="src/app/models/uye.py">uye.py</a>
+│       │   └── <a href="src/app/models/kutuphane.py">kutuphane.py</a>
 │       └── services/
-│           └── json_storage.py
+│           └── <a href="src/app/services/json_storage.py">json_storage.py</a>
 ├── tests/
-│   └── test_kutuphane.py
-├── README.md
-├── requirements.txt
-└── run.py                 # Ana giriş noktası
-```
+│   └── <a href="tests/test_kutuphane.py">test_kutuphane.py</a>
+├── <a href="README.md">README.md</a>
+├── <a href="requirements.txt">requirements.txt</a>
+└── <a href="run.py">run.py</a>
+</pre>
+
 
 ---
 
