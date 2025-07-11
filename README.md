@@ -48,7 +48,7 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
    ```
 
 ---
-
+---
 ## Proje Yapısı
 
 kutuphane-yonetim-sistemi/
@@ -69,7 +69,7 @@ kutuphane-yonetim-sistemi/
 ├── [requirements.txt](requirements.txt)
 └── [run.py](run.py)                 # Ana giriş noktası
 
-
+---
 ---
 
 ## Kullanım
