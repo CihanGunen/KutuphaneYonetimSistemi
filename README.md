@@ -1,5 +1,4 @@
 # Kütüphane Yönetim Sistemi (Python OOP Projesi)
-yeni
 
 Bu proje, Python OOP kullanılarak geliştirilmiş basit bir kütüphane yönetim sistemidir.  
 Kitap ekleme, üye ekleme, kitap ödünç verme ve iade alma işlemlerini destekler.  
@@ -27,7 +26,7 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 
 ## Kurulum
 
-1. Projeyi klonlayın veya  dosyaları indirin:
+1. Projeyi klonlayın veya dosyaları indirin:
 
    ```bash
    git clone https://github.com/CihanGunen/KutuphaneYonetimSistemi
@@ -52,24 +51,25 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 
 ## Proje Yapısı
 
+```
 kutuphane-yonetim-sistemi/
 ├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
 ├── src/
 │   └── app/
 │       ├── cli/
-│       │   └── [main_menu.py](src/app/cli/main_menu.py)
+│       │   └── main_menu.py
 │       ├── models/
-│       │   ├── [kitap.py](src/app/models/kitap.py)
-│       │   ├── [uye.py](src/app/models/uye.py)
-│       │   └── [kutuphane.py](src/app/models/kutuphane.py)
+│       │   ├── kitap.py
+│       │   ├── uye.py
+│       │   └── kutuphane.py
 │       └── services/
-│           └── [json_storage.py](src/app/services/json_storage.py)
+│           └── json_storage.py
 ├── tests/
-│   └── [test_kutuphane.py](tests/test_kutuphane.py)
-├── [README.md](README.md)
-├── [requirements.txt](requirements.txt)
-└── [run.py](run.py)                 # Ana giriş noktası
-
+│   └── test_kutuphane.py
+├── README.md
+├── requirements.txt
+└── run.py                 # Ana giriş noktası
+```
 
 ---
 
@@ -91,4 +91,3 @@ pytest -s
 
 ---
 
---
