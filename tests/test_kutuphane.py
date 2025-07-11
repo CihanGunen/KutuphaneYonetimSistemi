@@ -10,6 +10,7 @@ def test_kitap_ekle_ve_bul():
     bulunan = kutuphane.kitap_bul("12345")
     assert bulunan is not None
     assert bulunan.isim == "Test Kitap"
+    print("✅ test_kitap_ekle_ve_bul: Kitap başarıyla eklendi ve bulundu.")
 
 def test_uye_ekle_ve_bul():
     kutuphane = Kutuphane()
@@ -18,6 +19,7 @@ def test_uye_ekle_ve_bul():
     bulunan = kutuphane.uye_bul("u1")
     assert bulunan is not None
     assert bulunan.ad == "Ali"
+    print("✅ test_uye_ekle_ve_bul: Üye başarıyla eklendi ve bulundu.")
 
 def test_odunc_verme_ve_iade():
     kutuphane = Kutuphane()
@@ -43,3 +45,5 @@ def test_odunc_verme_ve_iade():
     # Aynı kitap tekrar iade edilemez
     iade_ikinci = uye.kitap_iade_et(kitap)
     assert iade_ikinci is False
+
+    print("✅ test_odunc_verme_ve_iade: Ödünç alma ve iade işlemleri başarılı.")

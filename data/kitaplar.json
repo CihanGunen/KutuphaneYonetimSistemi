@@ -1,0 +1,38 @@
+[
+    {
+        "isim": "Test Kitap",
+        "yazar": "Test Yazar",
+        "isbn": "12345",
+        "mevcut": true
+    },
+    {
+        "isim": "Kitap1",
+        "yazar": "Yazar1",
+        "isbn": "isbn1",
+        "mevcut": true
+    },
+    {
+        "isim": "Test Kitap",
+        "yazar": "Test Yazar",
+        "isbn": "12345",
+        "mevcut": true
+    },
+    {
+        "isim": "Kitap1",
+        "yazar": "Yazar1",
+        "isbn": "isbn1",
+        "mevcut": true
+    },
+    {
+        "isim": "Test Kitap",
+        "yazar": "Test Yazar",
+        "isbn": "12345",
+        "mevcut": true
+    },
+    {
+        "isim": "Kitap1",
+        "yazar": "Yazar1",
+        "isbn": "isbn1",
+        "mevcut": true
+    }
+]
