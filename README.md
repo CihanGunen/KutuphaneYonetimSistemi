@@ -29,8 +29,8 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 1. Projeyi klonlayın veya dosyaları indirin:
 
    ```bash
-   git clone https://github.com/kullanici/kutuphane-yonetim-sistemi.git
-   cd kutuphane-yonetim-sistemi
+   git clone https://github.com/CihanGunen/KutuphaneYonetimSistemi
+   cd KutuphaneYonetimSistemi
    ```
 
 2. Sanal ortam oluşturun ve aktive edin:
