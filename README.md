@@ -76,6 +76,31 @@ kutuphane-yonetim-sistemi/
 
 ---
 
+## Proje Yapısı
+
+```
+kutuphane-yonetim-sistemi/
+├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
+├── src/
+│   └── app/
+│       ├── cli/
+│       │   └── main_menu.py
+│       ├── models/
+│       │   ├── kitap.py
+│       │   ├── uye.py
+│       │   └── kutuphane.py
+│       └── services/
+│           └── json_storage.py
+├── tests/
+│   └── test_kutuphane.py
+├── README.md
+├── requirements.txt
+└── run.py                 # Ana giriş noktası
+```
+
+---
+
+
 ## Kullanım
 
 ```bash
