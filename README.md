@@ -49,10 +49,6 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 
 ---
 
-
-
-
-
 ## Proje Yapısı
 
 <pre>
@@ -75,8 +71,6 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
 └── <a href="run.py">run.py</a>
 </pre>
 
-
-
 ---
 
 ## Kullanım
@@ -96,4 +90,3 @@ pytest -s
 ```
 
 ---
-
