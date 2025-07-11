@@ -31,37 +31,63 @@ Veriler JSON dosyalarında kalıcı olarak saklanır.
    ```bash
    git clone https://github.com/kullanici/kutuphane-yonetim-sistemi.git
    cd kutuphane-yonetim-sistemi
+   ```
 
-python -m venv venv
-source venv/bin/activate  # Linux/MacOS
-venv\Scripts\activate     # Windows
+2. Sanal ortam oluşturun ve aktive edin:
 
-pip install -r requirements.txt
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/MacOS
+   venv\Scripts\activate     # Windows
+   ```
 
-kutuphane-yonetim-sistemi/
-├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
-├── src/
-│   ├── app/
-│   │   ├── cli/
-│   │   │   └── main_menu.py
-│   │   ├── models/
-│   │   │   ├── kitap.py
-│   │   │   ├── uye.py
-│   │   │   └── kutuphane.py
-│   │   └── services/
-│   │       └── json_storage.py
-├── README.md
-├── requirements.txt
-└── run.py                 # Ana giriş noktası
+3. Gerekli bağımlılıkları yükleyin:
 
-
-python run.py
-
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ---
 
-İstersen bu metni doğrudan `README.md` dosyanı açıp yapıştırabilirsin.  
-Başka yardım istersen hemen söyle!
+## Proje Yapısı
 
+```
+kutuphane-yonetim-sistemi/
+├── data/                  # JSON veri dosyaları (kitaplar, uyeler)
+├── src/
+│   └── app/
+│       ├── cli/
+│       │   └── main_menu.py
+│       ├── models/
+│       │   ├── kitap.py
+│       │   ├── uye.py
+│       │   └── kutuphane.py
+│       └── services/
+│           └── json_storage.py
+├── tests/
+│   └── test_kutuphane.py
+├── README.md
+├── requirements.txt
+└── run.py                 # Ana giriş noktası
+```
+
+---
+
+## Kullanım
+
+```bash
+python run.py
+```
+
+---
+
+## Testler
+
+Testleri çalıştırmak için:
+
+```bash
+pytest -s
+```
+
+---
 
